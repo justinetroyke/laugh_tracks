@@ -30,10 +30,6 @@ RSpec.describe 'Visitor' do
 
     expect(page).to have_content(comedian_average_age)
   end
-
-  it 'should see a list of comedians with age given' do
-    comedian
-  end
 end
 
 # RSpec.describe 'Visitors' do
